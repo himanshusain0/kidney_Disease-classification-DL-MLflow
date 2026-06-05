@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/Kidney_disease/__init__.py
+src/Kidney_disease.egg-info/PKG-INFO
+src/Kidney_disease.egg-info/SOURCES.txt
+src/Kidney_disease.egg-info/dependency_links.txt
+src/Kidney_disease.egg-info/top_level.txt
+src/Kidney_disease/components/__init__.py
+src/Kidney_disease/config/__init__.py
+src/Kidney_disease/config/configuration__init__.py
+src/Kidney_disease/constants/__init__.py
+src/Kidney_disease/entity/__init__.py
+src/Kidney_disease/pipeline/__init__.py
+src/Kidney_disease/utils/__init__.py
