@@ -6,9 +6,13 @@ src/Kidney_disease.egg-info/SOURCES.txt
 src/Kidney_disease.egg-info/dependency_links.txt
 src/Kidney_disease.egg-info/top_level.txt
 src/Kidney_disease/components/__init__.py
+src/Kidney_disease/components/data_ingestion.py
 src/Kidney_disease/config/__init__.py
-src/Kidney_disease/config/configuration__init__.py
+src/Kidney_disease/config/configuration.py
 src/Kidney_disease/constants/__init__.py
 src/Kidney_disease/entity/__init__.py
+src/Kidney_disease/entity/config_entity.py
 src/Kidney_disease/pipeline/__init__.py
+src/Kidney_disease/pipeline/stage_01_data_ingestion.py
 src/Kidney_disease/utils/__init__.py
+src/Kidney_disease/utils/common.py

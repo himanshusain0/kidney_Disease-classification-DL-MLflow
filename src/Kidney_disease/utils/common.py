@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from Kidney_disease import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -29,10 +29,15 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-            logger.info(f"yaml file: {path_to_yaml} loaded successfully")
-            return ConfigBox(content)
+        if content is None:
+            raise ValueError(f"yaml file is empty: {path_to_yaml}")
+        logger.info(f"yaml file: {path_to_yaml} loaded successfully")
+        return ConfigBox(content)
     except BoxValueError:
-        raise ValueError("yaml file is empty")
+        raise ValueError(
+            f"yaml file at {path_to_yaml} does not contain a mapping/dict "
+            f"(got {type(content).__name__})"
+        )
     except Exception as e:
         raise e
     

@@ -1,0 +1,17 @@
+# Development environment configuration.
+# Populated as MLflow / DVC / remote storage integration is added.
+
+# --- MLflow ---
+MLFLOW_TRACKING_URI: ""
+MLFLOW_ARTIFACT_URI: ""
+MLFLOW_EXPERIMENT_NAME: kidney-disease-experiment
+MLFLOW_RUN_NAME: ""
+
+# --- DVC remote storage ---
+DVC_REMOTE_NAME: ""
+DVC_REMOTE_URL: ""
+
+# --- AWS (used by DVC remote / S3) ---
+AWS_ACCESS_KEY_ID: ""
+AWS_SECRET_ACCESS_KEY: ""
+AWS_DEFAULT_REGION: ""
