@@ -284,3 +284,453 @@ x==========x]
 [2026-06-13 18:00:29,289: INFO:main:>>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2026-06-16 16:40:05,244: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 16:40:05,267: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 16:40:05,272: INFO:common:created directory at: artifacts]
+[2026-06-16 16:40:06,045: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-16 16:43:33,993: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 16:43:33,999: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 16:43:34,000: INFO:common:created directory at: artifacts]
+[2026-06-16 16:43:34,409: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-16 16:43:59,002: INFO:common:json file saved at: scores.json]
+[2026-06-16 17:23:38,130: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-16 17:23:38,133: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:23:38,138: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:23:38,139: INFO:common:created directory at: artifacts]
+[2026-06-16 17:23:38,139: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-16 17:23:38,139: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-16 17:23:59,450: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-16 17:24:00,119: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-16 17:24:00,119: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-16 17:24:00,122: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:24:00,123: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:24:00,124: INFO:common:created directory at: artifacts]
+[2026-06-16 17:24:00,125: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-16 17:24:00,817: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:24:01,190: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:24:01,422: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-16 17:24:01,422: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-16 17:24:01,425: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:24:01,427: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:24:01,428: INFO:common:created directory at: artifacts]
+[2026-06-16 17:24:01,428: INFO:common:created directory at: artifacts\training]
+[2026-06-16 17:25:10,868: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:25:10,976: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-16 17:25:10,977: INFO:main:*******************]
+[2026-06-16 17:25:10,977: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-16 17:25:10,979: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:25:10,981: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:25:10,982: INFO:common:created directory at: artifacts]
+[2026-06-16 17:25:11,167: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-16 17:25:32,896: INFO:common:json file saved at: scores.json]
+[2026-06-16 17:25:32,897: INFO:common:json file saved at: scores.json]
+[2026-06-16 17:25:59,285: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-16 17:33:32,962: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-16 17:33:32,968: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:33:32,974: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:33:32,978: INFO:common:created directory at: artifacts]
+[2026-06-16 17:33:32,980: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-16 17:33:32,981: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-16 17:34:26,614: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-16 17:34:27,302: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-16 17:34:27,303: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-16 17:34:27,305: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:34:27,307: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:34:27,308: INFO:common:created directory at: artifacts]
+[2026-06-16 17:34:27,308: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-16 17:34:28,009: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:34:28,194: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:34:28,316: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-16 17:34:28,317: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-16 17:34:28,319: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:34:28,321: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:34:28,322: INFO:common:created directory at: artifacts]
+[2026-06-16 17:34:28,322: INFO:common:created directory at: artifacts\training]
+[2026-06-16 17:35:46,271: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-16 17:35:46,467: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-16 17:35:46,467: INFO:main:*******************]
+[2026-06-16 17:35:46,468: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-16 17:35:46,474: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-16 17:35:46,478: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-16 17:35:46,479: INFO:common:created directory at: artifacts]
+[2026-06-16 17:35:46,819: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-16 17:36:11,566: INFO:common:json file saved at: scores.json]
+[2026-06-16 17:36:11,567: INFO:common:json file saved at: scores.json]
+[2026-06-16 17:36:48,273: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 09:42:42,949: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 09:42:42,974: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 09:42:52,512: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 09:43:51,668: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 09:43:51,682: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 09:43:52,930: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 09:43:55,518: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 09:43:55,522: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 09:43:55,522: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 09:43:55,522: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 09:43:55,528: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:43:55,543: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:43:55,546: INFO:common:created directory at: artifacts]
+[2026-06-17 09:43:55,547: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-17 09:43:55,548: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 09:44:07,892: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 09:44:09,031: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 09:44:09,031: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 09:44:09,033: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:44:09,035: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:44:09,035: INFO:common:created directory at: artifacts]
+[2026-06-17 09:44:09,036: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-17 09:44:11,475: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:44:12,998: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:44:13,316: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 09:44:13,317: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-17 09:44:13,320: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:44:13,322: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:44:13,323: INFO:common:created directory at: artifacts]
+[2026-06-17 09:44:13,323: INFO:common:created directory at: artifacts\training]
+[2026-06-17 09:45:33,447: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:45:33,613: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 09:45:33,613: INFO:main:*******************]
+[2026-06-17 09:45:33,613: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 09:45:33,618: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:45:33,621: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:45:33,622: INFO:common:created directory at: artifacts]
+[2026-06-17 09:45:33,870: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 09:45:58,486: INFO:common:json file saved at: scores.json]
+[2026-06-17 09:45:58,487: INFO:common:json file saved at: scores.json]
+[2026-06-17 09:46:01,174: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 09:46:01,185: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 09:46:01,186: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 09:46:04,362: ERROR:main:INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}]
+Traceback (most recent call last):
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\main.py", line 55, in <module>
+    model_evalution.main()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\components\model_evaluation_mlflow.py", line 62, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 474, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\tracking\client.py", line 435, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 161, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 272, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\utils\rest_utils.py", line 590, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\utils\rest_utils.py", line 304, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}
+[2026-06-17 09:53:10,339: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 09:53:10,358: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 09:53:11,410: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 09:53:17,764: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 09:53:17,766: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 09:53:17,767: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 09:53:17,767: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 09:53:17,770: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:53:17,775: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:53:17,777: INFO:common:created directory at: artifacts]
+[2026-06-17 09:53:17,777: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-17 09:53:17,778: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 09:53:28,520: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 09:53:29,368: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 09:53:29,368: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 09:53:29,370: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:53:29,372: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:53:29,373: INFO:common:created directory at: artifacts]
+[2026-06-17 09:53:29,373: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-17 09:53:31,868: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:53:33,668: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:53:33,773: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 09:53:33,774: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-17 09:53:33,775: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:53:33,777: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:53:33,778: INFO:common:created directory at: artifacts]
+[2026-06-17 09:53:33,778: INFO:common:created directory at: artifacts\training]
+[2026-06-17 09:54:44,821: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 09:54:44,938: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 09:54:44,938: INFO:main:*******************]
+[2026-06-17 09:54:44,938: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 09:54:44,941: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 09:54:44,943: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 09:54:44,944: INFO:common:created directory at: artifacts]
+[2026-06-17 09:54:45,216: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 09:55:07,519: INFO:common:json file saved at: scores.json]
+[2026-06-17 09:55:07,520: INFO:common:json file saved at: scores.json]
+[2026-06-17 09:55:12,851: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 09:55:12,858: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 09:55:12,858: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 09:56:55,488: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-06-17 10:01:54,815: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:01:54,855: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 10:01:56,403: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 10:01:59,872: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:01:59,881: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 10:01:59,886: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 10:01:59,887: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 10:01:59,896: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:01:59,923: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:01:59,927: INFO:common:created directory at: artifacts]
+[2026-06-17 10:01:59,929: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-17 10:01:59,931: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:02:11,229: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:02:13,201: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 10:02:13,201: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 10:02:13,206: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:02:13,214: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:02:13,216: INFO:common:created directory at: artifacts]
+[2026-06-17 10:02:13,216: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-17 10:02:16,418: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:02:21,113: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:02:21,291: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 10:02:21,293: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-17 10:02:21,297: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:02:21,299: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:02:21,299: INFO:common:created directory at: artifacts]
+[2026-06-17 10:02:21,300: INFO:common:created directory at: artifacts\training]
+[2026-06-17 10:04:15,015: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:04:15,190: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 10:04:15,190: INFO:main:*******************]
+[2026-06-17 10:04:15,190: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 10:04:15,194: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:04:15,197: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:04:15,199: INFO:common:created directory at: artifacts]
+[2026-06-17 10:04:15,457: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 10:04:40,581: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:04:40,583: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:04:43,850: ERROR:main:[WinError 10054] An existing connection was forcibly closed by the remote host]
+Traceback (most recent call last):
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\main.py", line 55, in <module>
+    model_evalution.main()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\components\model_evaluation_mlflow.py", line 54, in log_into_mlflow
+    dagshub.init(
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\dagshub\common\init.py", line 88, in init
+    repo_api.get_repo_info()
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\dagshub\common\api\repo.py", line 100, in get_repo_info
+    res = self._http_request("GET", self.repo_api_url)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\dagshub\common\api\repo.py", line 94, in _http_request
+    return http_request(method, url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\dagshub\common\helpers.py", line 60, in http_request
+    return httpx.request(method, url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-06-17 10:12:03,216: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:12:03,234: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 10:12:05,786: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 10:12:08,398: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:12:08,403: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 10:12:08,406: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 10:12:08,407: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 10:12:08,412: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:12:08,417: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:12:08,419: INFO:common:created directory at: artifacts]
+[2026-06-17 10:12:08,421: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-17 10:12:08,422: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:12:29,910: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:12:30,583: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 10:12:30,584: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 10:12:30,588: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:12:30,591: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:12:30,591: INFO:common:created directory at: artifacts]
+[2026-06-17 10:12:30,592: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-17 10:12:31,368: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:12:31,541: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:12:31,645: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 10:12:31,646: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-17 10:12:31,649: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:12:31,649: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:12:31,651: INFO:common:created directory at: artifacts]
+[2026-06-17 10:12:31,651: INFO:common:created directory at: artifacts\training]
+[2026-06-17 10:14:07,482: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:14:07,760: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 10:14:07,760: INFO:main:*******************]
+[2026-06-17 10:14:07,761: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 10:14:07,767: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:14:07,776: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:14:07,781: INFO:common:created directory at: artifacts]
+[2026-06-17 10:14:08,102: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 10:14:33,172: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:14:33,173: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:14:36,254: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 10:14:36,268: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 10:14:36,268: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 10:14:45,215: ERROR:main:[Errno 28] No space left on device]
+Traceback (most recent call last):
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\main.py", line 55, in <module>
+    model_evalution.main()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\pyhton\Projects\Kidny_disease\kidney_Disease-classification-DL-MLflow\src\Kidney_disease\components\model_evaluation_mlflow.py", line 73, in log_into_mlflow
+    mlflow.keras.log_model(
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\keras\save.py", line 349, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\models\model.py", line 1207, in log
+    flavor.save_model(path=local_path, mlflow_model=mlflow_model, **kwargs)
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\mlflow\keras\save.py", line 219, in save_model
+    model.save(model_path, **save_model_kwargs)
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\zipfile.py", line 1869, in writestr
+    dest.write(data)
+  File "C:\Users\ht025\.conda\envs\kidney\Lib\zipfile.py", line 1196, in write
+    self._fileobj.write(data)
+OSError: [Errno 28] No space left on device
+[2026-06-17 10:31:28,277: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:31:28,295: INFO:helpers:Accessing as himanshusain0]
+[2026-06-17 10:31:29,403: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 10:31:30,470: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-06-17 10:31:30,474: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 10:31:30,477: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 10:31:30,477: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-06-17 10:31:30,480: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:31:30,485: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:31:30,487: INFO:common:created directory at: artifacts]
+[2026-06-17 10:31:30,487: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-17 10:31:30,488: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:31:44,779: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-06-17 10:31:45,472: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-06-17 10:31:45,472: INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2026-06-17 10:31:45,474: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:31:45,478: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:31:45,478: INFO:common:created directory at: artifacts]
+[2026-06-17 10:31:45,486: INFO:common:created directory at: artifacts/prepare_base_model]
+[2026-06-17 10:31:46,230: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:31:46,411: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:31:46,531: INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-06-17 10:31:46,531: INFO:main:>>>>>> stage Training started <<<<<<]
+[2026-06-17 10:31:46,533: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:31:46,535: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:31:46,536: INFO:common:created directory at: artifacts]
+[2026-06-17 10:31:46,536: INFO:common:created directory at: artifacts\training]
+[2026-06-17 10:33:08,788: WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-06-17 10:33:08,932: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-06-17 10:33:08,932: INFO:main:*******************]
+[2026-06-17 10:33:08,932: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-06-17 10:33:08,934: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-17 10:33:08,937: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-17 10:33:08,937: INFO:common:created directory at: artifacts]
+[2026-06-17 10:33:09,177: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-06-17 10:33:30,785: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:33:30,786: INFO:common:json file saved at: scores.json]
+[2026-06-17 10:33:36,308: INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/himanshusain0/kidney_Disease-classification-DL-MLflow "HTTP/1.1 200 OK"]
+[2026-06-17 10:33:36,314: INFO:helpers:Initialized MLflow to track repo "himanshusain0/kidney_Disease-classification-DL-MLflow"]
+[2026-06-17 10:33:36,314: INFO:helpers:Repository himanshusain0/kidney_Disease-classification-DL-MLflow initialized!]
+[2026-06-17 10:35:00,169: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
